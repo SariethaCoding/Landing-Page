@@ -5,7 +5,7 @@ body {
     
 }
 
-#webpage {
+.webpage {
     width:80%;
     margin:auto;
     background-color: #F9FAF8;
@@ -13,62 +13,81 @@ body {
 
 
 
-#header {
+.header {
     background-color: #1F2937;
     font-size: 24px;
     color:#f9FAF8;
-    padding:10px;
+    padding:20px 200px 50px 200px;
+    
     
 }
 
 .header-top {
     display: flex;
-}
-
-#header .logo {
-    font-size: 20px;
-}
-
-#header .links {
+    justify-content: space-between;
     
-    justify-content: flex-end;
-    margin-right: 10px;
-    border:1px solid white;
 }
 
-#header a {
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+
+    
+}
+
+.links a {
     font-size: 18px;
     color:#E5E7EB;
     text-decoration: none;
+    margin-left: 30px;
 }
 
-#header a:hover {
+.links a:hover {
     text-decoration: underline;
 }
 
 
 .splash {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: flex-start;
+
+    border:0px solid white;
 }
 
-#splash p {
+.splash_text {
     font-size: 18px;
     color:#E5E7EB;
 }
+
+
+
+.splash_img {
+    
+    margin-left: 100px;
+}
+
 h1{
     font-size: 48px;
     color:#F9FAF8;
-
+    margin: 0px 0px -10px 0px;
 }
 
 .signup_button a {
     background-color: #3882F6;
     text-decoration: none;
-    padding:10px;
+    padding:10px 40px 10px 40px;
     color: #E5E7EB;
     width:400px;
     border-radius: 10px;
-    border:1px solid white;
+    font-weight: bold;
 }
 
 .signup_button a:hover {
